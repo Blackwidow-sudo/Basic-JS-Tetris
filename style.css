@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 200px;
+  height: 400px;
+  background-color: yellow;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+/* .stein wird vom JS-Code auf die Böcke gezeichnet die den Stein darstellen sollen */
+.stein {
+  background-color: blue;
+}
+
+.miniGrid {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 80px;
+  height: 80px;
+  margin-left: 50px;
+  background-color: yellow;
+}
+
+.miniGrid div {
+  width: 20px;
+  height: 20px;
+}
