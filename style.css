@@ -1,5 +1,21 @@
+body {
+  background-color: lightgreen;
+}
+
+h3 {
+  text-align: center;
+  font-family: Helvetica;
+  color: blueviolet;
+}
+
+button {
+  display: block;
+  margin: auto;
+}
+
 .container {
   display: flex;
+  justify-content: center;
 }
 
 .grid {
@@ -8,7 +24,7 @@
 
   width: 200px;
   height: 400px;
-  background-color: yellow;
+  background-color: beige;
 }
 
 .grid div {
@@ -28,7 +44,7 @@
   width: 80px;
   height: 80px;
   margin-left: 50px;
-  background-color: yellow;
+  background-color: beige;
 }
 
 .miniGrid div {
