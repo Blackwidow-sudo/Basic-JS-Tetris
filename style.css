@@ -3,14 +3,37 @@ body {
 }
 
 h3 {
+  width: 100px;
+  padding: 20px 20px;
+  margin: auto;
+  border-radius: 5px;
+  border-style: solid;
+  background-color: bisque;
+
+  
   text-align: center;
   font-family: Helvetica;
-  color: blueviolet;
+  color: darkslateblue;
 }
 
 button {
   display: block;
   margin: auto;
+
+  width: 100px;
+  height: 30px;
+}
+
+body p {
+  width: 400px;
+  padding: 15px 15px;
+  margin: auto;
+  border-radius: 5px;
+  background-color: bisque;
+  
+  text-align: center;
+  font-family: Helvetica;
+  color: darkslateblue;
 }
 
 .container {
